@@ -1,0 +1,12 @@
+name = "thu-thach-bien-bao"
+main = "src/worker.js"
+compatibility_date = "2026-10-13"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "thu-thach-bien-bao-db"
+database_id = "499805fa-f3f5-40a8-aeb0-854b74415d97"
