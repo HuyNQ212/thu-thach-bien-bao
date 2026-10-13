@@ -1,0 +1,13 @@
+{
+  "name": "thu-thach-bien-bao",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:remote": "wrangler d1 execute thu-thach-bien-bao-db --remote --file=schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}
